@@ -1,0 +1,5 @@
+La lección es clara: siempre use try-with-resources con preferencia a try-finally 
+cuando trabaje con recursos que deben cerrarse. El código resultante es más corto y más claro, 
+y las excepciones que genera son más útiles. La declaración try-with-resources hace que sea 
+fácil escribir el código correcto usando recursos que deben cerrarse, lo que era prácticamente 
+imposible usando try-finally.
